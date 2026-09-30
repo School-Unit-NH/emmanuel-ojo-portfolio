@@ -1,0 +1,10 @@
+:root{
+  --font-display:'Fraunces',Georgia,'Times New Roman',serif;
+  --font-body:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-script:'Allura','Snell Roundhand',cursive;
+  --bg:#f7f4ee; --surface:#fffdf9; --ink:#1b1c1f; --muted:#5b5e66; --line:#e2dccf;
+  --gold:#8a5d15; --gold-soft:#c9a04f; --night:#141518; --on-night:#f3efe6;
+  --r:14px; --max:1120px; --s1:.5rem; --s2:1rem; --s3:1.5rem; --s4:2.5rem; --s5:5rem;
+  --pattern:repeating-linear-gradient(135deg,transparent 0 22px,rgba(201,160,79,.10) 22px 23px);
+}
+[data-theme="dark"]{--bg:#141518;--surface:#1d1f24;--ink:#f3efe6;--muted:#a9abb2;--line:#2c2f36;--gold:#d3ab5e;}
