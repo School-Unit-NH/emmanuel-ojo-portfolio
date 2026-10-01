@@ -2,6 +2,7 @@ import { initTheme } from "./modules/theme.js";
 import { initNav } from "./modules/nav.js";
 import { initReveal } from "./modules/reveal.js";
 import { renderIcons } from "./modules/icons.js";
+import { initBackToTop } from "./modules/back-to-top.js";
 renderIcons();
 document
   .querySelectorAll("[data-icon]")
@@ -12,3 +13,4 @@ initTheme(document.getElementById("theme-switch"));
 initNav(document.getElementById("menu-btn"), document.getElementById("nav"));
 initReveal();
 document.getElementById("year").textContent = new Date().getFullYear();
+initBackToTop(document.getElementById("back-to-top"));
